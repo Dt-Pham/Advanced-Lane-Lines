@@ -1,0 +1,24 @@
+name: carnd
+dependencies:
+    - python==3.6.9
+    - numpy
+    - matplotlib
+    - jupyter
+    - pillow
+    - scikit-learn
+    - scikit-image
+    - scipy
+    - h5py
+    - eventlet
+    - flask-socketio
+    - seaborn
+    - pandas
+    - imageio
+    - pip:
+        - moviepy
+        - opencv-python
+        - requests
+        - tensorflow
+        - keras
+        - docopt
+        - glob3
