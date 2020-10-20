@@ -35,18 +35,6 @@ Linux, MacOS: `source activate carnd`
 
 ### 2. Run the pipeline:
 ```bash
-python main.py
+python main.py INPUT_IMAGE OUTPUT_IMAGE_PATH
+python main.py --video INPUT_VIDEO OUTPUT_VIDEO_PATH
 ```
-![](example_images/tool.png)
-
-- The text box on the left is the path to the image or video you wish to process.
-- If the text box on the left is the path to a video, you can specify a number on the text box on the right which is the frame of the video you want to extract.
-- After you enter the path to the image (or video with a particular frame number), you can then hit the `Load image` button. It will show you multiple images, each belong to a specific stage of the pipeline. Image below is the output of the color-thresholding stage.
-
-![example of fine tuning](example_images/finetuning.gif)
-
-- `Save params` and `Load params` will save all the parameters of the pipeline to a file called `params.pkl`.
-
-# Todo:
-- [ ] Improve UI of the application
-- [ ] Add more parameters to the pipeline
